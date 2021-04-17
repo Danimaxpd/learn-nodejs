@@ -1,6 +1,15 @@
-const result = [];
+const fs = require('fs');
+console.clear();
+
+const base = 5;
+let output = '';
+
 for (let i = 1; i <= 10; i++) {
-    result.push(5 * i);
+    output += `${base} X ${i} = ${(base * i)}\n`
 }
 
-console.log(result);
+fs.writeFile('tabla5.txt', output, (error) => {
+    if (error) throw error
+
+    console.log('Archivo creado')
+})
