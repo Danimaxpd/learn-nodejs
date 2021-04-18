@@ -1,0 +1,23 @@
+{
+  "name": "testnode",
+  "version": "0.0.1",
+  "description": "package to learn nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danimaxpd/learn-nodejs.git"
+  },
+  "author": "DavidJm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danimaxpd/learn-nodejs/issues"
+  },
+  "homepage": "https://github.com/Danimaxpd/learn-nodejs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  }
+}
